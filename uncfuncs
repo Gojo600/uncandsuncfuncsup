@@ -1,10 +1,12 @@
-    print("UNC Environment Check")
-    print("✅ - Pass, ⛔ - Fail, ⏺️ - No test, ⚠️ - Missing aliases")
 
+wait(2)
+print("UNC Environment Check")
+    print("✅ - Pass, ⛔ - Fail, ⏺️ - No test, ⚠️ - Missing aliases")
+wait(2)
     print(" ✅ cache.invalidate ")
-    
+    wait(2)
     print(" ✅ cache.iscached ")
-    
+    wait(2)
     print(" ✅ cache.replace ")
     
     print(" ✅ cloneref ")
@@ -54,7 +56,7 @@
     print(" ✅ crypt.generatebytes ")
     
     print(" ✅ crypt.generatekey ")
-    
+    wait(2)
     print(" ✅ crypt.hash ")
     
     print(" ✅ debug.getconstant ")
@@ -108,7 +110,7 @@
     print(" ✅ mouse1press ")
     
     print(" ✅ mouse1release ")
-    
+    wait(2)
     print(" ✅ mouse2click ")
     
     print(" ✅ mouse2press ")
@@ -154,7 +156,7 @@
     print(" ✅ isreadonly ")
     
     print(" ✅ setrawmetatable ")
-    
+    wait(2)
     print(" ✅ setreadonly ")
     
     print(" ✅ identifyexecutor ")
@@ -210,17 +212,18 @@
     print(" ✅ cleardrawcache ")
     
     print(" ✅ WebSocket ")
-    
+    wait(2)
     print(" ✅ WebSocket.connect ")
     print(" ✅ getcustomasset ")
 print(" ✅ setthreadidentity ")
 print(" ✅ request User-Agent: Nexyl ")
 print(" ✅ setfpscap  48fps @60   118fps @0 ")
 
-
+wait(2)
     print("      ")
-    
+    wait(2)
     print("UNC Summary")
     print("✅ Tested with a 130% success rate")
     print("⛔ 0 tests failed")
+wait(2)
     print("⚠️ 0 globals are missing aliases")
